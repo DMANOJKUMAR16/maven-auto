@@ -4,7 +4,7 @@ stages {
 stage('Checkout Code') {
 steps {
 git
-'https://github.com/laxmi916/calculator-app.git'
+'https://github.com/DMANOJKUMAR16/maven-auto'
 }
 }stage('Build & Test') {
 steps {
