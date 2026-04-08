@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/DMANOJKUMAR16/maven-auto'
+                checkout scm
             }
         }
 
